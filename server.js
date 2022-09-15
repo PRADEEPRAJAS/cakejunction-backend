@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const path = require("path");
 const app = require("./app");
 
-app.use("/",()=>{
+app.get("/",()=>{
 res.end("hello")}
 const DB =
   "mongodb+srv://pradeepraja:95666@trainingcluster.b8jho.mongodb.net/operationProduct?retryWrites=true&w=majority";
