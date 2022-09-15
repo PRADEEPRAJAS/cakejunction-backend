@@ -2,9 +2,12 @@
   "name": "final-project",
   "version": "0.0.0",
   "private": true,
+  "description":"",
+  "main":"server.js",
   "scripts":{
   "start":"node server.js"
   },
+  "license":"ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cloudinary": "^1.30.0",
